@@ -2,18 +2,105 @@
 <html lang="pt-BR">
 
 <head>
-	<meta charset="UTF-8">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./assets/style.css">
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-	<link rel="manifest" href="/site.webmanifest">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<title>Haltman - About</title>
+  <title>Haltman - About us</title>
+  <meta name="description" content="Haltman is a group of Brazilian hackers. We build privacy-first services like free mail forwarding (create aliases like handle@domain) and private, secure notes." />
+  <meta name="keywords" content="Haltman, haltman.io, Brazilian hackers, privacy, mail forwarding, email aliases, secure notes, encrypted notes, cybersecurity, offensive security, The Unlicense" />
+  <meta name="author" content="Haltman" />
 
+  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1" />
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+  <meta name="color-scheme" content="dark light" />
+  <meta name="theme-color" content="#121212" />
+
+  <link rel="canonical" href="https://haltman.io/" />
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
+
+  <!-- Social: Open Graph -->
+  <meta property="og:site_name" content="Haltman" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Haltman" />
+  <meta property="og:description" content="Brazilian hacker group building privacy-first services: free mail forwarding (aliases like handle@domain) and private, secure notes." />
+  <meta property="og:url" content="https://haltman.io/" />
+  <meta property="og:image" content="/og.png" />
+  <meta property="og:image:alt" content="Haltman" />
+
+  <!-- Social: Twitter/X -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Haltman" />
+  <meta name="twitter:description" content="Privacy-first services: free mail forwarding (aliases like handle@domain) + private, secure notes." />
+  <meta name="twitter:image" content="/og.png" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/style.css" />
+
+  <!-- Icons / PWA -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://haltman.io/#org",
+        "name": "Haltman",
+        "url": "https://haltman.io/",
+        "email": "abuse@haltman.io",
+        "sameAs": [
+          "https://github.com/haltman-io",
+          "https://t.me/haltmanio"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "abuse",
+            "email": "abuse@haltman.io"
+          }
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://haltman.io/#website",
+        "url": "https://haltman.io/",
+        "name": "Haltman",
+        "publisher": { "@id": "https://haltman.io/#org" }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://forward.haltman.io/#app",
+        "name": "Haltman Free Mail Forwarding",
+        "url": "https://forward.haltman.io/",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Any",
+        "description": "Free mail forwarding: create an alias like handle@domain and forward to an inbox you control.",
+        "publisher": { "@id": "https://haltman.io/#org" }
+      },
+      {
+        "@type": "WebApplication",
+        "@id": "https://enclosed.haltman.io/#app",
+        "name": "Haltman Enclosed",
+        "url": "https://enclosed.haltman.io/",
+        "applicationCategory": "SecurityApplication",
+        "operatingSystem": "Any",
+        "description": "Send private and secure notes.",
+        "publisher": { "@id": "https://haltman.io/#org" }
+      }
+    ]
+  }
+  </script>
 </head>
 
 <body>
