@@ -1,2 +1,3 @@
 # www.haltman.io
-do código frontend de www.haltman.io"
+
+Source code for www.haltman.io.
